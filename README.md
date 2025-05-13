@@ -21,7 +21,7 @@ The system detects a metallic ball and maze holes using YOLOv8, extracts a user-
 ---
 ## Demo Preview
 
-![Maze Demo](./assets/maze_demo.gif)
+![Maze Demo](maze_demo.gif)
 
 
 ## File Structure
