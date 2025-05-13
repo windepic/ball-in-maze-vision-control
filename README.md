@@ -16,6 +16,7 @@ The system detects a metallic ball and maze holes using YOLOv8, extracts a user-
 - Path extraction via HSV + Canny edge detection
 - START/FINISH detection  via geometric heuristics to orient the path from start to end
 - Arc-length-based resampling of contours to generate navigation points
+- holes labelled and customized dangerous zone
 - Real-time serial control to an Arduino for maze tilt
 
 ---
@@ -32,7 +33,7 @@ The system detects a metallic ball and maze holes using YOLOv8, extracts a user-
 ├── yolo_detector.py # YOLOv8-based detection of ball and holes 
 ├── path_planning.py # Path extraction and arc-length sampling 
 ├── serial_comm.py # Arduino serial communication 
-├── hole_manager.py # Auto-labelling and danger zone logic 
+├── hole_manager.py # Auto-labelling and dangerous zone logic 
 ├── pid_controller.py # Dual-axis PID controller (not authored by me)
 ├── visualizer_3d.py # 3D PyVista-based maze and ball visualization (not authored by me)
 ├── gui_control.py # Tkinter GUI interface (not authored by me)
