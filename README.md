@@ -25,10 +25,10 @@ The system detects a metallic ball and maze holes using YOLOv8, extracts a user-
 
 ```
 .
-├── main.py             - Sample integration code for module testing  
+├── main.py               
 ├── yolo_detector.py    - YOLOv8-based detection of metallic ball and holes  
 ├── path_planning.py    - Path extraction and arc-length sampling  
 ├── serial_comm.py      - Serial communication to Arduino  
 ├── requirements.txt    - Python dependency list  
-└── assets/             - Demo images or result screenshots  
+└── assets/             - Demo result screenshots  
 ```
